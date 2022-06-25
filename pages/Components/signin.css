@@ -1,0 +1,71 @@
+.maincon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.formcon{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+}
+.formsign{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:5rem;
+}
+.formname{
+    font-size: 3rem;
+    align-self: center;
+}
+label{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+input{
+    padding: 0.5rem 1rem;
+    width: 100%;
+    margin-bottom :1rem ;
+    font-size: 1.5rem;
+}
+input:focus{
+    outline: none;
+}
+.submitbtn{
+    font-size: 2rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+    background-color: rgb(82, 158, 239);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    color: white;
+}
+.submitbtn:hover{
+    transform: scale(1.05);
+}
+.exist{
+    align-self: center;
+    margin-top: 2rem;
+}
+.check{
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+.checkcon{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: flex-start;
+
+    align-items: center;
+}
+span{font-weight: 600;
+cursor: pointer;
+}

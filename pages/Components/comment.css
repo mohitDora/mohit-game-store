@@ -1,0 +1,48 @@
+.comcon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    padding: 5rem;
+}
+.comform input{
+    width: 100%;
+}
+.comform{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+}.reply{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+textarea{
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    resize: none;
+    border-radius: 0.5rem;
+}
+input{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0.5rem;
+}
+textarea:focus{
+    outline: none;
+   
+   
+}.combtn{
+    padding: 1rem 2rem;
+    background-color: rgb(82, 158, 239);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 2rem;
+}
+.combtn:hover{
+    transform: scale(1.05);
+}

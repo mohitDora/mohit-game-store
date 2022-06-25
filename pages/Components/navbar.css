@@ -1,0 +1,32 @@
+.navcon{
+    width: 100vw;  
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background-color: rgb(17, 19, 23);
+}
+.nav{
+    display: flex;
+    width: 90vw;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgholder,.carticon{
+    font-size: 2rem;
+}
+.imgholder{
+    user-select: none;
+}
+
+.iconholder{
+    display: flex;
+}
+.usericon{
+    font-size: 2rem;
+    margin: 0 3rem;
+}
+.naam{
+    font-size: 1.5rem;
+}
